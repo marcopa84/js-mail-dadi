@@ -6,8 +6,8 @@ console.log(inputEmail);
 var message = ('NON SEI AUTORIZZATO AD ENTRARE');
 
 for (var i = 0; i < emails.length; i++){
-  console.log(emails);
   var email = emails[i]
+  console.log(email);
   if (inputEmail == email){
     message = ('EMAIL AUTORIZZATA AD ENTRARE');
   }
