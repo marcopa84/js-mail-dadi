@@ -1,6 +1,6 @@
-var utente1 = Math.floor(Math.random() * 7 + 1);
+var utente1 = Math.floor(Math.random() * 6 + 1);
 console.log(utente1);
-var utente2 = Math.floor(Math.random() * 7 + 1);
+var utente2 = Math.floor(Math.random() * 6 + 1);
 console.log(utente2);
 
 var message = ('Pareggio');
